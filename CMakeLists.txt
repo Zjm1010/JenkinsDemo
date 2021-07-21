@@ -1,6 +1,5 @@
-project(Demo1)
-set(APP_SRC main.c)
-add_executable(${PROJECT_NAME} main.c)
- 
-#print message
-message(${PROJECT_SOURCE_DIR})
+cmake_minimum_required (VERSION 2.8)
+
+project (demo)
+
+add_executable(main main.c)
